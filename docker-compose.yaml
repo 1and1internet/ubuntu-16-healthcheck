@@ -1,0 +1,9 @@
+version: '2'
+services:
+  healthcheck:
+    hostname: healthcheck
+    container_name: healthcheck
+    build: .
+    image: healthcheck
+    ports:
+      - "8080:8080"
