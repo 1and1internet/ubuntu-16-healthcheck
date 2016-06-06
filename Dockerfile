@@ -1,5 +1,5 @@
-FROM 1and1internet/ubuntu-16:unstable
-MAINTAINER lee.harrison@fasthosts.com
+FROM 1and1internet/ubuntu-16:latest
+MAINTAINER lee.harrison@1and1.co.uk
 
 RUN \
    apt-get update && \
